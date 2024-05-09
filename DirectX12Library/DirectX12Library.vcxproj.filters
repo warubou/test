@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\window">
+      <UniqueIdentifier>{c257cff3-3949-4323-a014-1b47909a89a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\window">
+      <UniqueIdentifier>{aad4314e-4ded-49a9-81c8-547f053686ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\dx12">
+      <UniqueIdentifier>{7a1324db-4c65-4d2e-b471-defaec987abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dx12">
+      <UniqueIdentifier>{f3eec65d-400f-404b-89aa-76ccdf6b305c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\vector">
+      <UniqueIdentifier>{723b5245-faa9-451d-bcce-bbe743287995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\vector\math">
+      <UniqueIdentifier>{4ca1ce5a-078e-48e0-b92c-2fe008b67b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\vector">
+      <UniqueIdentifier>{783dfc1d-1f39-4472-8fd9-6ee89e1120d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\vector\math">
+      <UniqueIdentifier>{e650bf55-1253-45cf-88c9-d970159310d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\inPreCompileShader">
+      <UniqueIdentifier>{5a583761-4896-4d23-beb6-a269244407b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\inPreCompileShader">
+      <UniqueIdentifier>{799e7e01-e522-46a3-a1b9-9d2f88798a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window\windowSystem.h">
+      <Filter>ヘッダー ファイル\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_main.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_device.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_swapChain.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_adapter.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_debugLayer.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_header.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_dxgiFactory.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_commandList.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_commandQueue.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_commandAllocator.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\singleton.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_descriptorHeap.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_helperStruct.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_defaultRTV.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_fence.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_vertexBuffer.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_resourceBuffer.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_shader.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_inputLayout.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_graphicsPipeline.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_rootSignature.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_viewPort.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_scissorRect.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_indexBuffer.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\koMatrix.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\koVector.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector2.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector3.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector4.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\color.h">
+      <Filter>ヘッダー ファイル\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\math\koMath.h">
+      <Filter>ヘッダー ファイル\vector\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inPreCompileShader\inPreCompileShaderBinary.h">
+      <Filter>ヘッダー ファイル\inPreCompileShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_texture.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_singletonCommandObject.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_sprite.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_constantBuffer.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_worldMatrix.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_WVP.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_viewMatrix.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_projectionMatrix.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dx12\dx12_singletonGraphicsPipeline.h">
+      <Filter>ヘッダー ファイル\dx12</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window\windowSystem.cpp">
+      <Filter>ソース ファイル\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_adapter.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_dxgiFactory.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_device.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_commandList.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_commandAllocator.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_commandQueue.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_swapChain.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_descriptorHeap.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_defaultRTV.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_fence.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_main.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_vertexBuffer.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_shader.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_inputLayout.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_graphicsPipeline.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_rootSignature.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_viewPort.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_scissorRect.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_indexBuffer.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\color.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\koMatrix.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\koVector.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\vector2.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\vector3.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\vector4.cpp">
+      <Filter>ソース ファイル\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vector\math\koMath.cpp">
+      <Filter>ソース ファイル\vector\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inPreCompileShader\inPreCompileShaderBinary.cpp">
+      <Filter>ソース ファイル\inPreCompileShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_texture.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_singletonCommandObject.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_sprite.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_constantBuffer.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_worldMatrix.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_WVP.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_viewMatrix.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_projectionMatrix.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dx12\dx12_singletonGraphicsPipeline.cpp">
+      <Filter>ソース ファイル\dx12</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

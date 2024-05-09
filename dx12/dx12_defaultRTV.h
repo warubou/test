@@ -1,0 +1,46 @@
+#pragma once
+#ifndef DX12_RTV_H_
+#define DX12_RTV_H_
+
+#include "dx12_header.h"
+#include "dx12_descriptorHeap.h"
+#include <vector>
+
+namespace ko
+{
+	namespace dx12
+	{
+		class RTV
+		{
+		public:
+			RTV();
+			~RTV();
+
+			// ==============================================
+			// RTVÇÃçÏê¨
+			// ==============================================
+			HRESULT Create(IDXGISwapChain1* swapChain);
+
+			// ==============================================
+			// ID3D12DescriptorHeapÇÃéÊìæ
+			// ==============================================
+			ID3D12DescriptorHeap* Get(void)const;
+
+			// ==============================================
+			// _backBuffersÇÃéÊìæ
+			// ==============================================
+			std::vector<ID3D12Resource*> GetBackBuffers(void)const;
+
+			// ==============================================
+			// âï˙
+			// ==============================================
+			void Release(void);
+
+		private:
+			DescriptorHeap* _descriptorHeap = nullptr;
+			std::vector<ID3D12Resource*> _backBuffers;
+		};
+	}
+}
+
+#endif // DX12_RTV_H_
